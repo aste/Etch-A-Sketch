@@ -1,0 +1,17 @@
+/* :root {
+  grid-rows: 1;
+  grid-columns: 1;
+} */
+
+#gridContainer {
+  display: grid;
+  grid-template-columns: repeat(grid-columns, 1fr);
+  grid-template-rows: repeat(grid-rows, 1fr);
+  border: 1px solid red;
+}
+
+.grid-cell {
+  padding: 1em;
+  border: 1px solid blue;
+  text-align: center;
+}
