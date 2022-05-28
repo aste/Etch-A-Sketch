@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,6 +10,14 @@
     <title>Etch-A-Sketch</title>
   </head>
   <body>
+    <div id="buttons">
+      <button type="button" id="reset" onclick="resetGrid()">Reset Grid<!DOCTYPE html></button>
+      <button type="button" id="black" onclick="setColor('black')">Black Pen<!DOCTYPE html></button>
+      <button type="button" id="rainbow" onclick="setColor('rainbow')">
+        Rainbow Pen<!DOCTYPE html>
+      </button>
+      <button type="button" id="eraser" onclick="setColor('eraser')">Eraser<!DOCTYPE html></button>
+    </div>
     <div id="gridContainer"></div>
   </body>
 </html>
